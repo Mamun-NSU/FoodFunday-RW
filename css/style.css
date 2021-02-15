@@ -312,4 +312,59 @@ html, body{ height: 100%;
     padding: 32px 0px 10px 0;
 }
 
+/*------------------------------------------------------------------
+    BANNER AREA
+-------------------------------------------------------------------*/
+
+.banner{
+    background:url(../images/banner.jpg) no-repeat center top;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100vh;
+    min-height:100%;
+}
+
+.banner .container, .banner .banner-static, .banner .col-lg-12 {
+    height: 100%;
+}
+.banner-text {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-cell {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+.banner-text h1 {
+    font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    display: inline-block;
+    font-size: 74px;
+    line-height: 100px;
+    color:#fff;
+    padding-bottom: 0px;
+    padding-top:100px;
+}
+
+.banner-text h2 {
+    font-family: 'nautilus_pompiliusregular';
+    letter-spacing: 2.7px;
+    position: relative;
+    font-size: 37px;
+    line-height: 100px;
+    padding-bottom:25px;
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:#ccc;
+    padding-bottom:35px;
+    margin:0px;
+}
+
 
