@@ -711,5 +711,71 @@ html, body{ height: 100%;
     transform: scale(1,1);
 }
 
+.special-box{
+    padding-bottom:40px;
+}
+
+.special-box .owl-theme .owl-controls .owl-page.active span{
+    /*background:#e75b1e;*/
+    height: 16px;
+    width: 16px;
+}
+.special-box .owl-theme .owl-controls .owl-page span{
+    border:2px solid #fff;
+    opacity: 1;
+    background:#202020;
+    height: 16px;
+    width: 16px;
+}
+
+/*------------------------------------------------------------------
+    MENU AREA
+-------------------------------------------------------------------*/
+
+
+.menu-main{
+    
+}
+
+.menu-main .title-caption{
+    color:#666;
+}
+.tab-title-menu {
+    text-align:center;
+}
+
+.tab-title-menu h2{
+    border-bottom:1px solid #666;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.tab-title-menu p{
+    font-size:35px;
+    padding-top:0px;
+}
+.tab-title-menu p {
+    color:#000;
+}
+
+.tab-menu{
+    background: #f5f5f5;
+    padding: 2px 0px;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.05);
+}
+
+.offer-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.offer-item img {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
 
 
