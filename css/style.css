@@ -936,3 +936,69 @@ html, body{ height: 100%;
     display: inline-block;
     padding: 0 4px;
 }
+
+.sf-team:hover .team-social li a {
+    border: 1px solid rgba(0,0,0,0);
+    background: #fff;
+    color: #222;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.team-social li a {
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    color: #222;
+    font-size: 16px;
+    display: block;
+}
+
+.sf-team:hover .text-col h3, .sf-team:hover .text-col p {
+    color: #fff;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+/*------------------------------------------------------------------
+    GALLERY AREA
+-------------------------------------------------------------------*/
+
+.gallery-main{
+    
+}
+
+.gallery-main .title-caption{
+    color: #666;
+}
+
+/* new gallery */
+
+.gal-container{
+    padding: 12px;
+}
+.gal-item{
+    overflow: hidden;
+    padding: 3px;
+}
+.gal-item .box{
+    height: 350px;
+    overflow: hidden;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    -o-object-fit:cover;
+}
+
+
