@@ -839,3 +839,100 @@ html, body{ height: 100%;
 .tab-menu .is-active p{
     color:#fff;
 }
+
+/*------------------------------------------------------------------
+    TEAM AREA
+-------------------------------------------------------------------*/
+
+.team-main{
+    background:url(../images/team_bg.jpg) no-repeat center;
+    background-attachment:fixed;
+    background-size:cover;
+    position:relative;
+}
+
+.team-main:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team-main .block-title{
+    color:#fff;
+}
+
+.sf-team{
+    float: left;
+    width: 100%;
+}
+.sf-team .thumb {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.sf-team .text-col {
+    float: left;
+    width: 100%;
+    padding: 25px 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-align: center;
+    background:#fff;
+}
+
+.sf-team .thumb a img{
+    width:100%;
+}
+
+.sf-team:hover .text-col{
+    border: 1px solid rgba(0,0,0,0);
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+.sf-team:hover .thumb img {
+    opacity: 0.6;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;    
+}
+
+.text-col h3{
+    font-family: 'nautilus_pompiliusregular';
+    font-size:28px;
+}
+
+.sf-team:hover .team-social {
+    border-color: #fff;
+    transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.team-social {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+    list-style: none;
+    border-top: 1px solid;
+}
+
+.team-social li {
+    display: inline-block;
+    padding: 0 4px;
+}
