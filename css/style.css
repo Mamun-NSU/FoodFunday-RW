@@ -778,4 +778,64 @@ html, body{ height: 100%;
     border-radius: 50%;
 }
 
+.offer-item div {
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+.offer-item .offer-price {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    display: block;
+    width: 92px;
+    height: 92px;
+    line-height: 92px;
+    -moz-border-radius: 92px;
+    -webkit-border-radius: 92px;
+    border-radius: 92px;
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #000;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.offer-item div h3 {
+    font-size: 20px;
+    margin: 9px 0 0px;
+    font-family: 'nautilus_pompiliusregular';
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+.offer-item div p {
+    color: #6b6b6b;
+}
+
+
+.tab-menu .slick-prev.slick-arrow {
+    display:none;
+}
+.tab-menu .slider.slider-single{
+    border-top:1px solid #ccc;
+    padding-top:25px;
+}
+
+.tab-menu .slick-initialized .slick-slide{
+    outline:none;
+}
+
+.tab-menu .is-active h2{
+    color:#fff;
+    border-bottom: 1px solid #fff;
+}
+.tab-menu .is-active p{
+    color:#fff;
+}
