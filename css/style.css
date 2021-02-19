@@ -1050,5 +1050,51 @@ html, body{ height: 100%;
 .modal-open .gal-item button.close:focus{
     outline: none;
 }
+.modal-open .gal-item button.close span{
+    position: relative;
+    top: -3px;
+    font-weight: lighter;
+    text-shadow:none;
+}
+.gal-container .modal-dialogue{
+    width: 80%;
+}
+.gal-container .description{
+    position: relative;
+    height: 40px;
+    top: -40px;
+    padding: 10px 25px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: left;
+}
+.gal-container .description h4{
+    margin:0px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    color:#fff;
+}
+.gal-container .modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 100px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.gal-container .modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 1;
+}
 
 
