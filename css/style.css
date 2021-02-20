@@ -1201,5 +1201,87 @@ html, body{ height: 100%;
     font-size: 11px;
     color: #ccc;
 }
+.blog-btn-v{
+    clear:both;
+    padding-top:30px;
+    text-align:center;
+}
+
+.blog-btn-v a {
+    color: #fff;
+    min-width: 219px;
+    padding: 10.5px 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.blog-btn-v a:hover {
+    background: none;
+}
+
+
+/*------------------------------------------------------------------
+    PRICING AREA
+-------------------------------------------------------------------*/
+
+.pricing-main{
+    background:url(../images/full-bg.png) no-repeat center ;
+    background-size:cover;
+}
+
+.pricing-main h2{
+    font-family: 'nautilus_pompiliusregular';
+    padding-bottom:30px;
+}
+
+.pricing-main p{
+    letter-spacing: 0.16px;
+    padding: 20px 120px;
+    color: #666;
+    font-size: 18px;
+    text-align:center;
+}
+
+.panel-pricing-in{
+    clear:both;
+}
+.panel-pricing {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.panel-pricing:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.panel-pricing .panel-heading {
+  padding: 20px 10px;
+}
+
+.pricing-main .panel-heading h3{
+    font-family: 'Roboto', sans-serif;
+    padding:15px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.panel-pricing .panel-heading .fa {
+  margin-top: 10px;
+  font-size: 58px;
+}
+.panel-pricing .list-group-item {
+  color: #202020;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 15px;
+}
+.panel-pricing .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
 
 
