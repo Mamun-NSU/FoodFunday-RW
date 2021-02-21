@@ -1282,6 +1282,66 @@ html, body{ height: 100%;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+.panel-pricing .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.panel-pricing .panel-body {
+  background-color: #f0f0f0;
+  font-size: 40px;
+  color: #777777;
+  padding: 20px;
+  margin: 0px;
+}
+
+.panel-body  p{
+    padding: 0px;
+    margin: 0;
+}
+.panel-body  p strong{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    color: #000;
+    font-size: 42px;
+}
+
+.panel-body  p strong span{
+    color: #e75b1e;
+}
+.panel-pricing{
+    border:1px solid #e75b1e;
+}
+.panel-pricing .panel-heading{
+    background: #e75b1e;
+}
+.pricing-main .panel-footer .btn-block{
+    border-radius:0px;
+}
+.pricing-main .panel-footer a{
+    background: #e75b1e;
+    border: 3px solid #e75b1e;
+    color:#fff;
+    padding: 14px 16px;
+}
+.pricing-main .panel-footer a:hover{
+    background:none;
+    color:#202020;
+    border: 3px solid red;
+}
+
+.panel-pricing{
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.panel-pricing:hover{
+    margin-top: -8px;
+}
+
+.panel-pricing:hover   
+
 
 
 
