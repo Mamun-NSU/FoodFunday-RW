@@ -123,4 +123,60 @@
 			$('.slider-single').slick('slickGoTo', goToSingleSlide);
 		 });
 		 
+		/* ========================
+			WOW ANIMATION
+		=============================*/
+		
+    		new WOW().init();
+			
+		/* ========================
+			DATE/TIME PICKER
+		=============================*/
+		
+		var date = new Date();
+		var today = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+		$('#date-picker').datetimepicker({
+			format: 'DD.MM.YYYY',
+			minDate: today
+		});
+		$('#time-picker').datetimepicker({
+			format: 'LT'
+		});
+		
+		/* ==============================================
+			SELECTPICKER
+		=============================================== */
+		
+		$('.selectpicker').selectpicker();
+
+		/* ==============================================
+			PRELOADER
+		=============================================== */
+		
+		  
+		$(window).load(function() { 
+			$("#status").fadeOut("slow"); 
+			$("#loader").delay(200).fadeOut(); 
+		})
+		
+		  
+		  
+		/* ==============================================
+			SCROLL UP
+		=============================================== */
+			
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+					$('.scrollup').fadeIn();
+				} else {
+					$('.scrollup').fadeOut();
+				}
+			}); 
+			
+			$('.scrollup').click(function(){
+				$("html, body").animate({ scrollTop: 0 }, 600);
+				return false;
+			});
+			
+			 
 		 	
