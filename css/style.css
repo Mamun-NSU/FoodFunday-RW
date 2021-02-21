@@ -1377,6 +1377,73 @@ html, body{ height: 100%;
     margin-bottom:20px;
     min-height: 53px;
 }
+.form-box input{
+    width:100%;
+    border:2px dotted #ccc;
+    background:#f5f5f5;
+    color:#202020;
+    padding:12px;
+    text-transform:capitalize;
+    border-radius: 4px;
+    opacity: 1;
+    min-height:54px;
+}
+
+.form-box select{
+    width:100%;
+    border:2px dotted #ccc;
+    background:#f5f5f5;
+    color:#202020;
+    padding: 12px;
+    text-transform:capitalize;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+.form-box .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+    width:100%;
+}
+.form-box .bootstrap-select button{
+    width:100%;
+    border:2px dotted #ccc;
+    background:#f5f5f5;
+    color:#202020 !important;
+    padding: 15px;
+    text-transform:capitalize;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+.form-box select option{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color:#202020;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#202020;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#202020;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color:#202020;
+  opacity: 1;
+}
+
+
 
 
 
