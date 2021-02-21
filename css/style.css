@@ -1342,6 +1342,42 @@ html, body{ height: 100%;
 
 .panel-pricing:hover   
 
+/*------------------------------------------------------------------
+    RESERVATIONS AREA
+-------------------------------------------------------------------*/
+
+.reservations-main{
+    
+}
+
+.form-reservations-box{
+    width:70%;
+    margin:0 auto;
+}
+
+.reservations-main h4{
+    text-align:center;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.reservations-main p{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+}
+
+.reservations-box{
+    padding-top:30px;
+}
+
+.form-box{
+    margin-bottom:20px;
+    min-height: 53px;
+}
+
 
 
 
