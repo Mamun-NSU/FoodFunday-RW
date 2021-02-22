@@ -1615,6 +1615,47 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     color: #6f6f6f;
     text-align: center;
 }
+.footer-box-a h3{
+    font-size:24px;
+    font-family: 'nautilus_pompiliusregular';
+}
+.footer-box-a p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+    line-height: 25px;
+}
+
+
+.footer-box-b h3{
+    font-size:24px;
+    font-family: 'nautilus_pompiliusregular';
+}
+.footer-box-b p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+}
+.footer-box-b ul li{
+    line-height:30px;
+}
+.footer-box-b ul li a{
+    color:#ffffff;
+}
+
+.footer-box-b ul li a:hover{
+    padding-left:5px;
+}   
+
+.footer-box-c h3{
+    font-size:24px;
+    font-family: 'nautilus_pompiliusregular';
+}
+.footer-box-c p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+}
 
 
 
