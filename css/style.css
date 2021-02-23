@@ -1656,6 +1656,75 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     font-family: 'Roboto', sans-serif;
     color:#ffffff;
 }
+.footer-box-c p i{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    float: left;
+    min-width: 20px;
+    text-align: center;
+}
+
+.footer-box-c p span{
+    display: table;
+    padding-left: 12px;
+    padding-top:1px;
+}
+
+.footer-box-c p a{
+    color:#ffffff;
+}
+
+
+
+.footer-box-d h3{
+    font-size:24px;
+    font-family: 'nautilus_pompiliusregular';
+}
+.footer-box-d p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+}
+
+.footer-box-d ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.footer-box-d ul li{
+    display: inline-block;
+    width: 100%;
+    padding-bottom:12px;
+}
+.footer-box-d ul li p{
+    padding:0px;
+    margin:0px;
+}
+.footer-box-d ul li span{
+    color: #666;
+}
+
+/*------------------------------------------------------------------
+    COPYRIGHT AREA
+-------------------------------------------------------------------*/
+
+.copyright-main{
+    border-top: 2px dotted #fff;
+    text-align:center;
+    padding-top:25px;
+    margin-top:70px;
+    padding-bottom:25px;
+}
+
+.copyright-main .copy-title{
+    letter-spacing: 1px;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    padding-bottom:0px;
+}
+
 
 
 
