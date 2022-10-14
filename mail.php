@@ -43,6 +43,7 @@ if(get_magic_quotes_gpc()) {
 
 //$address = "example@themeforest.net";
 //[email for test]
+// Message goes to the address
 $address = "aamamun882@gmail.com";
 
 
